@@ -31,8 +31,8 @@ def inorder(root):
 def postorder(root):
     if root is None:
         return
-    inorder(root.left)
-    inorder(root.right)
+    postorder(root.left)
+    postorder(root.right)
     print(root.data, end=" ")
 
 
@@ -40,8 +40,8 @@ def preorder(root):
     if root is None:
         return
     print(root.data, end=" ")
-    inorder(root.left)
-    inorder(root.right)
+    preorder(root.left)
+    preorder(root.right)
 
 
 root = Node(None)
