@@ -19,5 +19,5 @@ class Binary_search:
 
 if __name__ == "__main__":
     bina = Binary_search()
-    ans = bina.binary_search([1, 2, 3], 4)
+    ans = bina.binary_search([1, 2, 3, 4], 4)
     print(ans)
