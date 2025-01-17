@@ -1,6 +1,7 @@
-from Tree import Creating, Node
-root = Node(None)
-root=Creating(root)
+# from Tree import Creating, Node
+# root = Node(None)
+# root=Creating(root)
+from dummytree import root
 def levelorder(root):
     a=[root]
     a.append(None)
